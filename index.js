@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const Attachment = require('discord.js');
 
-const token = 'NjUyNjE2MDEyMjQ3NzI4MTMw.XevEZg.6brzHnXJ3BB-7qvQv1W2hqgVaNM;
+const token = 'NjUyNjE2MDEyMjQ3NzI4MTMw.XevEZg.6brzHnXJ3BB-7qvQv1W2hqgVaNM';
 
 const PREFIX = '!';
 
