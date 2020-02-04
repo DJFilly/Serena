@@ -23,8 +23,8 @@ bot.on('message', msg=>{
             msg.channel.send(swordgif);
         break;
         // Anime Gif
-        case 'happy1':
-            const happy1gif = ('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
+        case 'happy2':
+            const happy2gif = ('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
             msg.channel.send(happygif);
         break;
         // Funnies
