@@ -181,10 +181,10 @@ bot.on('message', msg=>{
         //1.0.2 Update Gifs
         //Jimmy Gif
         case 'happy':
-            var happylist = ['happygif', 'happy1gif']; 
-            var happyrandom = happylist[Math.floor(Math.random() * happylist.length)];
             const happygif = ('https://media0.giphy.com/media/2n8480RCQ2jBe/giphy.gif')
-            const happy1gif = ('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
+            const happy3gif = ('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
+            var happylist = ['happy1gif', 'happy3gif' ]; 
+            var happyrandom = happylist[Math.floor(Math.random() * happylist.length)];
             msg.channel.send(happyrandom);
         break;
         //Happy Gif
