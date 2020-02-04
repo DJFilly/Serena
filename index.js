@@ -6,10 +6,10 @@ const token = 'NjUyNjE2MDEyMjQ3NzI4MTMw.XevEZg.6brzHnXJ3BB-7qvQv1W2hqgVaNM';
 
 const PREFIX = '!';
 
-var version = '0.1.0';
+var version = '1.0.1';
 
 bot.on('ready', () =>{
-    console.log('This Bot is Online!')
+    console.log('Serena Online!')
 })
 
 bot.on('message', msg=>{
@@ -23,8 +23,8 @@ bot.on('message', msg=>{
             msg.channel.send(swordgif);
         break;
         // Anime Gif
-        case 'happy':
-            const happygif = ('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
+        case 'happy1':
+            const happy1gif = ('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
             msg.channel.send(happygif);
         break;
         // Funnies
@@ -177,6 +177,17 @@ bot.on('message', msg=>{
             const angrygif = ('https://media0.giphy.com/media/KkN91uUyBo2Yw/source.gif')
             msg.channel.send(angrygif);
         break;
+
+        //1.0.2 Update Gifs
+        //Jimmy Gif
+        case 'happy':
+            var happylist = ['happygif', 'happy1gif']; 
+            var happyrandom = happylist[Math.floor(Math.random() * happylist.length)];
+            const happygif = ('https://media0.giphy.com/media/2n8480RCQ2jBe/giphy.gif')
+            const happy1gif = ('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
+            msg.channel.send(happyrandom);
+        break;
+        //Happy Gif
         }      
 
 })
