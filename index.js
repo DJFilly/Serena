@@ -23,10 +23,6 @@ bot.on('message', msg=>{
             msg.channel.send(swordgif);
         break;
         // Anime Gif
-        case 'happy2':
-            const happy2gif = ('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
-            msg.channel.send(happygif);
-        break;
         // Funnies
         case 'what':
             const whatgif = ('https://media0.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif')
@@ -180,7 +176,7 @@ bot.on('message', msg=>{
 
         //1.0.2 Update Gifs
         //Jimmy Gif
-           case 'happy':
+        case 'happy':
         happygif = ('https://media0.giphy.com/media/2n8480RCQ2jBe/giphy.gif'); 
         happy1gif = ('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
         happy2gif = ('https://media.tenor.com/images/b2034b756388e63aeecc89dc1705d043/tenor.gif')
@@ -198,7 +194,8 @@ bot.on('message', msg=>{
             msg.channel.send(happygif)
         }
         break;
-        }    
+    }
+
 
 })
 
