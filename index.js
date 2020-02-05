@@ -13,9 +13,9 @@ bot.on('ready', () =>{
 })
 
 bot.on('message', msg=>{
-  let args = msg.content.substring(PREFIX.length).split(" ");
+    let args = msg.content.substring(PREFIX.length).split(" ");
     
- switch(args[0]){
+    switch(args[0]){
         // 1.0.1 Update Gifs
         // Anime Gif
         case 'sword':
@@ -195,7 +195,8 @@ bot.on('message', msg=>{
             }
         break;
         }
+    }
     
-})
+,)
 
 bot.login(process.env.token);
