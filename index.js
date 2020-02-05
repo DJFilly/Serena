@@ -180,7 +180,7 @@ bot.on('message', msg=>{
             happygif = ('https://media0.giphy.com/media/2n8480RCQ2jBe/giphy.gif'); 
             happy1gif = ('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
             happy2gif = ('https://media.tenor.com/images/b2034b756388e63aeecc89dc1705d043/tenor.gif')
-            var happynum = Math.floor(Math.random() * 10);     // returns a random integer from 0 to 9
+            happynum = Math.floor(Math.random() * 10);     // returns a random integer from 0 to 9
             if (happynum = 0) {
                 msg.channel.send(happygif)
             }
