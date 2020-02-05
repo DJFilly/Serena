@@ -176,6 +176,7 @@ bot.on('message', msg=>{
 
         //1.0.2 Update Gifs
         //Jimmy Gif
+        /*
         case 'happy':
             happygif = ('https://media0.giphy.com/media/2n8480RCQ2jBe/giphy.gif'); 
             happy1gif = ('https://media3.giphy.com/media/100HzPDqKviwVi/source.gif')
@@ -194,6 +195,7 @@ bot.on('message', msg=>{
                 msg.channel.send(happygif)
             }
         break;
+        */
         }
     
     
